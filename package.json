@@ -1,0 +1,29 @@
+{
+  "name": "librarySvc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "mocha": "^3.2.0",
+    "sqlite3": "^3.1.8"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.0",
+    "change-case": "^3.0.1",
+    "express": "^4.14.1",
+    "joi": "^10.2.0",
+    "knex": "^0.12.6",
+    "lodash": "^4.17.4",
+    "mysql": "^2.13.0",
+    "sillyname": "^0.1.0",
+    "uuid": "^3.0.1"
+  }
+}
