@@ -11,7 +11,7 @@ const defaultSettings = {
     token: 'yzdkk3DxhlvUBQs43Z3gbZKb',
   },
   infrastructure: {
-    port: 3000,
+    port: 8888,
   },
   db: {},
 };

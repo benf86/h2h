@@ -16,6 +16,4 @@ module.exports = globals => _.merge({}, baseServices(globals)('conversation'), {
               ? { talker: user[0], listener: 0 }
               : { talker: user[0].id, listener: 0 } || { talker: 0, listener: 0 })))
       )),
-  get: params => query => body =>
-    globals.repositories.conversation.get()(),
 });
