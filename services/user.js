@@ -4,7 +4,7 @@ const { User } = require('../models/user');
 
 module.exports = globals => _.merge({}, baseServices(globals)('user'), {
   create: params => query => body =>
-    globals.repositories.user.get({ id: body.slack_name })()
+    globals.repositories.user.get({ id: body.user_name })()
       .then(existingUser => (existingUser[0]
           ? existingUser
           : globals.repositories.user

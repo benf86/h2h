@@ -5,7 +5,7 @@ class User extends Base {
   constructor(params) {
     super();
     this.id = params.id;
-    this.slack_name = params.slack_name;
+    this.user_name = params.user_name;
     this.silly_name = params.silly_name || sillyName();
     this.listener = params.listener || false;
   }

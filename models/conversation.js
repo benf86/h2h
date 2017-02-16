@@ -1,13 +1,12 @@
-const uuid = require('uuid');
 const { Base } = require('./base');
 
 
 class Conversation extends Base {
   constructor(params) {
     super();
-    this.id = params.id || uuid.v4();
-    this.listener = params.listener;
-    this.talker = params.talker;
+    this.id = params.id;
+    this.id_listener = params.listener;
+    this.id_talker = params.talker;
   }
 }
 
