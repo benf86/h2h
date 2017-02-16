@@ -14,7 +14,7 @@ module.exports = globals => [
       .then(r => r.map(e => ({
         text: body.text.slice(body.text.split(' ', 3).join(' ').length + 1),
         to: e.user_name,
-      }))),
+      }))[0]),
     }[body.text.split(' ', 1)[0]]),
   },
 ];
