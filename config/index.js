@@ -7,6 +7,9 @@ const production = require('./production');
 const environments = { dev, test, staging, production };
 
 const defaultSettings = {
+  slack: {
+    token: 'yzdkk3DxhlvUBQs43Z3gbZKb',
+  },
   infrastructure: {
     port: 3000,
   },
